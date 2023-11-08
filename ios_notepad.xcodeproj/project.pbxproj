@@ -1,0 +1,1108 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010CEC1926AA98F0000E2398 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010CEC1826AA98F0000E2398 /* DataManager.swift */; };
+		022150778D0459F1DA69779F /* Pods_ios_notepad_ios_notepadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA0C8F4960770BB0FB4DBF3 /* Pods_ios_notepad_ios_notepadUITests.framework */; };
+		03F2BDAA26A8591400405020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F2BDA926A8591400405020 /* AppDelegate.swift */; };
+		03F2BDB126A8591400405020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F2BDAF26A8591400405020 /* Main.storyboard */; };
+		03F2BDB326A8591500405020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F2BDB226A8591500405020 /* Assets.xcassets */; };
+		03F2BDB626A8591500405020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F2BDB426A8591500405020 /* LaunchScreen.storyboard */; };
+		03F2BDC126A8591500405020 /* ios_notepadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F2BDC026A8591500405020 /* ios_notepadTests.swift */; };
+		03F2BDCC26A8591500405020 /* ios_notepadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F2BDCB26A8591500405020 /* ios_notepadUITests.swift */; };
+		144A05E1292275C600BB02FE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144A05E0292275C600BB02FE /* BaseViewController.swift */; };
+		1452C2702A971B22004609A9 /* HomeworkInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452C26E2A971B22004609A9 /* HomeworkInfoVC.swift */; };
+		1452C2712A971B22004609A9 /* HomeworkInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1452C26F2A971B22004609A9 /* HomeworkInfoVC.xib */; };
+		1452C2752A971BD0004609A9 /* HomeworkInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452C2732A971BD0004609A9 /* HomeworkInfoCell.swift */; };
+		1452C2762A971BD0004609A9 /* HomeworkInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1452C2742A971BD0004609A9 /* HomeworkInfoCell.xib */; };
+		1452C27A2A971C68004609A9 /* TimetableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452C2782A971C68004609A9 /* TimetableVC.swift */; };
+		1452C27B2A971C68004609A9 /* TimetableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1452C2792A971C68004609A9 /* TimetableVC.xib */; };
+		147299CC291F93CA00C225C1 /* NavigationC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147299CB291F93CA00C225C1 /* NavigationC.swift */; };
+		14ECD396290AAF0D0063EDB7 /* UTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ECD395290AAF0D0063EDB7 /* UTabBarController.swift */; };
+		14FBE3952A9C38A700700D6B /* Date1+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FBE3922A9C38A700700D6B /* Date1+Extension.swift */; };
+		14FBE3962A9C38A700700D6B /* UIView1+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FBE3932A9C38A700700D6B /* UIView1+Extension.swift */; };
+		14FBE3972A9C38A700700D6B /* YLDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FBE3942A9C38A700700D6B /* YLDatePicker.swift */; };
+		14FBE39A2A9C3AD200700D6B /* AcivitesDataManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FBE3992A9C3AD200700D6B /* AcivitesDataManage.swift */; };
+		14FBE39D2A9C3EF400700D6B /* ExamsDataManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FBE39C2A9C3EF400700D6B /* ExamsDataManage.swift */; };
+		14FBE3A12A9C3F5200700D6B /* HomeworkDataManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FBE3A02A9C3F5200700D6B /* HomeworkDataManage.swift */; };
+		14FBE3A42A9C3FAF00700D6B /* CourseDataManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FBE3A32A9C3FAF00700D6B /* CourseDataManage.swift */; };
+		14FBE3A82A9CCB9900700D6B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FBE3A72A9CCB9900700D6B /* Model.swift */; };
+		7F5B7E83290E5AC6005BAAC0 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B7E81290E5AC6005BAAC0 /* LoginVC.swift */; };
+		7F5B7E84290E5AC6005BAAC0 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F5B7E82290E5AC6005BAAC0 /* LoginVC.xib */; };
+		7F5B7E87290E5FC5005BAAC0 /* ResignVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B7E85290E5FC5005BAAC0 /* ResignVC.swift */; };
+		7F5B7E88290E5FC5005BAAC0 /* ResignVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F5B7E86290E5FC5005BAAC0 /* ResignVC.xib */; };
+		8016F803B3B7F6CC584FF4F6 /* Pods_ios_notepadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917A0152CB3ACE25AB2CD090 /* Pods_ios_notepadTests.framework */; };
+		97404B3F5EA103955F676973 /* Pods_ios_notepad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83850802C79EF3ED059EAD1 /* Pods_ios_notepad.framework */; };
+		CB1EBA052AA30E9B00A34A95 /* CourseTimetableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1EBA042AA30E9B00A34A95 /* CourseTimetableModel.swift */; };
+		CB365B942A9F9524001C6DEF /* CourseDataTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB365B932A9F9524001C6DEF /* CourseDataTimeManager.swift */; };
+		CB60067B2A8BCFC3005BBF93 /* BHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6006792A8BCFC3005BBF93 /* BHomeViewController.swift */; };
+		CB60067C2A8BCFC3005BBF93 /* BHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB60067A2A8BCFC3005BBF93 /* BHomeViewController.xib */; };
+		CB6006802A8BD8A9005BBF93 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB60067E2A8BD8A9005BBF93 /* CourseViewController.swift */; };
+		CB6006812A8BD8A9005BBF93 /* CourseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB60067F2A8BD8A9005BBF93 /* CourseViewController.xib */; };
+		CB64C0182AA22EA100D02165 /* CourseTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB64C0162AA22EA100D02165 /* CourseTimeCell.swift */; };
+		CB64C0192AA22EA100D02165 /* CourseTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB64C0172AA22EA100D02165 /* CourseTimeCell.xib */; };
+		CB828EFD2A964E81006BEF06 /* CourseInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB828EFB2A964E81006BEF06 /* CourseInfoViewController.swift */; };
+		CB828EFE2A964E81006BEF06 /* CourseInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB828EFC2A964E81006BEF06 /* CourseInfoViewController.xib */; };
+		CB828F022A965004006BEF06 /* CourseInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB828F002A965004006BEF06 /* CourseInfoCell.swift */; };
+		CB828F032A965004006BEF06 /* CourseInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB828F012A965004006BEF06 /* CourseInfoCell.xib */; };
+		CB828F062A9655DC006BEF06 /* HomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB828F042A9655DC006BEF06 /* HomeworkViewController.swift */; };
+		CB828F072A9655DC006BEF06 /* HomeworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB828F052A9655DC006BEF06 /* HomeworkViewController.xib */; };
+		CBD4373F2A97AD7300DEA4AF /* CoursesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD4373D2A97AD7300DEA4AF /* CoursesCell.swift */; };
+		CBD437402A97AD7300DEA4AF /* CoursesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD4373E2A97AD7300DEA4AF /* CoursesCell.xib */; };
+		CBD437432A97AF6F00DEA4AF /* TimetableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD437412A97AF6F00DEA4AF /* TimetableCell.swift */; };
+		CBD437442A97AF6F00DEA4AF /* TimetableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD437422A97AF6F00DEA4AF /* TimetableCell.xib */; };
+		CBD4374D2A97B11E00DEA4AF /* ExamsInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD437462A97B11E00DEA4AF /* ExamsInfoVC.xib */; };
+		CBD4374E2A97B11E00DEA4AF /* ExamsInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD437482A97B11E00DEA4AF /* ExamsInfoCell.swift */; };
+		CBD4374F2A97B11F00DEA4AF /* ExamsInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD437492A97B11E00DEA4AF /* ExamsInfoCell.xib */; };
+		CBD437502A97B11F00DEA4AF /* ExamsInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD4374A2A97B11E00DEA4AF /* ExamsInfoVC.swift */; };
+		CBD437512A97B11F00DEA4AF /* ExamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD4374B2A97B11E00DEA4AF /* ExamsViewController.swift */; };
+		CBD437522A97B11F00DEA4AF /* ExamsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD4374C2A97B11E00DEA4AF /* ExamsViewController.xib */; };
+		CBD4375B2A97B19B00DEA4AF /* ActivitiesInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD437552A97B19B00DEA4AF /* ActivitiesInfoCell.swift */; };
+		CBD4375C2A97B19B00DEA4AF /* ActivitiesInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD437562A97B19B00DEA4AF /* ActivitiesInfoCell.xib */; };
+		CBD4375D2A97B19B00DEA4AF /* ActivitiesInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD437572A97B19B00DEA4AF /* ActivitiesInfoVC.swift */; };
+		CBD4375E2A97B19B00DEA4AF /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD437582A97B19B00DEA4AF /* ActivitiesViewController.swift */; };
+		CBD4375F2A97B19B00DEA4AF /* ActivitiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD437592A97B19B00DEA4AF /* ActivitiesViewController.xib */; };
+		CBD437602A97B19B00DEA4AF /* ActivitiesInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD4375A2A97B19B00DEA4AF /* ActivitiesInfoVC.xib */; };
+		CBFB6D642A9E46720020914A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFB6D632A9E46720020914A /* String+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03F2BDBD26A8591500405020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F2BD9E26A8591400405020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F2BDA526A8591400405020;
+			remoteInfo = ios_notepad;
+		};
+		03F2BDC826A8591500405020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F2BD9E26A8591400405020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F2BDA526A8591400405020;
+			remoteInfo = ios_notepad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010CEC1826AA98F0000E2398 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		03F2BDA626A8591400405020 /* ios_notepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_notepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F2BDA926A8591400405020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03F2BDB026A8591400405020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03F2BDB226A8591500405020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03F2BDB526A8591500405020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03F2BDB726A8591500405020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F2BDBC26A8591500405020 /* ios_notepadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_notepadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F2BDC026A8591500405020 /* ios_notepadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_notepadTests.swift; sourceTree = "<group>"; };
+		03F2BDC226A8591500405020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F2BDC726A8591500405020 /* ios_notepadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_notepadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F2BDCB26A8591500405020 /* ios_notepadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_notepadUITests.swift; sourceTree = "<group>"; };
+		03F2BDCD26A8591500405020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		144A05E0292275C600BB02FE /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1451FA5F291E0929006685D8 /* ios_notepad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios_notepad-Bridging-Header.h"; sourceTree = "<group>"; };
+		1452C26E2A971B22004609A9 /* HomeworkInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkInfoVC.swift; sourceTree = "<group>"; };
+		1452C26F2A971B22004609A9 /* HomeworkInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeworkInfoVC.xib; sourceTree = "<group>"; };
+		1452C2732A971BD0004609A9 /* HomeworkInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkInfoCell.swift; sourceTree = "<group>"; };
+		1452C2742A971BD0004609A9 /* HomeworkInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeworkInfoCell.xib; sourceTree = "<group>"; };
+		1452C2782A971C68004609A9 /* TimetableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableVC.swift; sourceTree = "<group>"; };
+		1452C2792A971C68004609A9 /* TimetableVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimetableVC.xib; sourceTree = "<group>"; };
+		147299CB291F93CA00C225C1 /* NavigationC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationC.swift; sourceTree = "<group>"; };
+		14ECD395290AAF0D0063EDB7 /* UTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTabBarController.swift; sourceTree = "<group>"; };
+		14FBE3922A9C38A700700D6B /* Date1+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date1+Extension.swift"; sourceTree = "<group>"; };
+		14FBE3932A9C38A700700D6B /* UIView1+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView1+Extension.swift"; sourceTree = "<group>"; };
+		14FBE3942A9C38A700700D6B /* YLDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLDatePicker.swift; sourceTree = "<group>"; };
+		14FBE3992A9C3AD200700D6B /* AcivitesDataManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcivitesDataManage.swift; sourceTree = "<group>"; };
+		14FBE39C2A9C3EF400700D6B /* ExamsDataManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamsDataManage.swift; sourceTree = "<group>"; };
+		14FBE3A02A9C3F5200700D6B /* HomeworkDataManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeworkDataManage.swift; sourceTree = "<group>"; };
+		14FBE3A32A9C3FAF00700D6B /* CourseDataManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseDataManage.swift; sourceTree = "<group>"; };
+		14FBE3A72A9CCB9900700D6B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		18817DEAA422830ADC4DF24A /* Pods-ios_notepad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_notepad.release.xcconfig"; path = "Target Support Files/Pods-ios_notepad/Pods-ios_notepad.release.xcconfig"; sourceTree = "<group>"; };
+		253192B8FD4A9C306844A270 /* Pods-ios_notepadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_notepadTests.debug.xcconfig"; path = "Target Support Files/Pods-ios_notepadTests/Pods-ios_notepadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F5B7E81290E5AC6005BAAC0 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		7F5B7E82290E5AC6005BAAC0 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		7F5B7E85290E5FC5005BAAC0 /* ResignVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResignVC.swift; sourceTree = "<group>"; };
+		7F5B7E86290E5FC5005BAAC0 /* ResignVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResignVC.xib; sourceTree = "<group>"; };
+		814EEBEDDB3468BCABCBE022 /* Pods-ios_notepadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_notepadTests.release.xcconfig"; path = "Target Support Files/Pods-ios_notepadTests/Pods-ios_notepadTests.release.xcconfig"; sourceTree = "<group>"; };
+		917A0152CB3ACE25AB2CD090 /* Pods_ios_notepadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_notepadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93441445A2EEFE8B800AAB95 /* Pods-ios_notepad-ios_notepadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_notepad-ios_notepadUITests.debug.xcconfig"; path = "Target Support Files/Pods-ios_notepad-ios_notepadUITests/Pods-ios_notepad-ios_notepadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A83850802C79EF3ED059EAD1 /* Pods_ios_notepad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_notepad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12ADC5AB3A4AEE4FD47235E /* Pods-ios_notepad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_notepad.debug.xcconfig"; path = "Target Support Files/Pods-ios_notepad/Pods-ios_notepad.debug.xcconfig"; sourceTree = "<group>"; };
+		C8E48EA61A331B42608AF4B6 /* Pods-ios_notepad-ios_notepadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_notepad-ios_notepadUITests.release.xcconfig"; path = "Target Support Files/Pods-ios_notepad-ios_notepadUITests/Pods-ios_notepad-ios_notepadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CB1EBA042AA30E9B00A34A95 /* CourseTimetableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTimetableModel.swift; sourceTree = "<group>"; };
+		CB365B932A9F9524001C6DEF /* CourseDataTimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDataTimeManager.swift; sourceTree = "<group>"; };
+		CB6006792A8BCFC3005BBF93 /* BHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BHomeViewController.swift; sourceTree = "<group>"; };
+		CB60067A2A8BCFC3005BBF93 /* BHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BHomeViewController.xib; sourceTree = "<group>"; };
+		CB60067E2A8BD8A9005BBF93 /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
+		CB60067F2A8BD8A9005BBF93 /* CourseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseViewController.xib; sourceTree = "<group>"; };
+		CB64C0162AA22EA100D02165 /* CourseTimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTimeCell.swift; sourceTree = "<group>"; };
+		CB64C0172AA22EA100D02165 /* CourseTimeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseTimeCell.xib; sourceTree = "<group>"; };
+		CB828EFB2A964E81006BEF06 /* CourseInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseInfoViewController.swift; sourceTree = "<group>"; };
+		CB828EFC2A964E81006BEF06 /* CourseInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseInfoViewController.xib; sourceTree = "<group>"; };
+		CB828F002A965004006BEF06 /* CourseInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseInfoCell.swift; sourceTree = "<group>"; };
+		CB828F012A965004006BEF06 /* CourseInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseInfoCell.xib; sourceTree = "<group>"; };
+		CB828F042A9655DC006BEF06 /* HomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkViewController.swift; sourceTree = "<group>"; };
+		CB828F052A9655DC006BEF06 /* HomeworkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeworkViewController.xib; sourceTree = "<group>"; };
+		CBD4373D2A97AD7300DEA4AF /* CoursesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesCell.swift; sourceTree = "<group>"; };
+		CBD4373E2A97AD7300DEA4AF /* CoursesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoursesCell.xib; sourceTree = "<group>"; };
+		CBD437412A97AF6F00DEA4AF /* TimetableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableCell.swift; sourceTree = "<group>"; };
+		CBD437422A97AF6F00DEA4AF /* TimetableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimetableCell.xib; sourceTree = "<group>"; };
+		CBD437462A97B11E00DEA4AF /* ExamsInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExamsInfoVC.xib; sourceTree = "<group>"; };
+		CBD437482A97B11E00DEA4AF /* ExamsInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamsInfoCell.swift; sourceTree = "<group>"; };
+		CBD437492A97B11E00DEA4AF /* ExamsInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExamsInfoCell.xib; sourceTree = "<group>"; };
+		CBD4374A2A97B11E00DEA4AF /* ExamsInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamsInfoVC.swift; sourceTree = "<group>"; };
+		CBD4374B2A97B11E00DEA4AF /* ExamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamsViewController.swift; sourceTree = "<group>"; };
+		CBD4374C2A97B11E00DEA4AF /* ExamsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExamsViewController.xib; sourceTree = "<group>"; };
+		CBD437552A97B19B00DEA4AF /* ActivitiesInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesInfoCell.swift; sourceTree = "<group>"; };
+		CBD437562A97B19B00DEA4AF /* ActivitiesInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivitiesInfoCell.xib; sourceTree = "<group>"; };
+		CBD437572A97B19B00DEA4AF /* ActivitiesInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesInfoVC.swift; sourceTree = "<group>"; };
+		CBD437582A97B19B00DEA4AF /* ActivitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		CBD437592A97B19B00DEA4AF /* ActivitiesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivitiesViewController.xib; sourceTree = "<group>"; };
+		CBD4375A2A97B19B00DEA4AF /* ActivitiesInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivitiesInfoVC.xib; sourceTree = "<group>"; };
+		CBFB6D632A9E46720020914A /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		DBA0C8F4960770BB0FB4DBF3 /* Pods_ios_notepad_ios_notepadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_notepad_ios_notepadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F2BDA326A8591400405020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97404B3F5EA103955F676973 /* Pods_ios_notepad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F2BDB926A8591500405020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8016F803B3B7F6CC584FF4F6 /* Pods_ios_notepadTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F2BDC426A8591500405020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022150778D0459F1DA69779F /* Pods_ios_notepad_ios_notepadUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F2BD9D26A8591400405020 = {
+			isa = PBXGroup;
+			children = (
+				03F2BDA826A8591400405020 /* ios_notepad */,
+				03F2BDBF26A8591500405020 /* ios_notepadTests */,
+				03F2BDCA26A8591500405020 /* ios_notepadUITests */,
+				03F2BDA726A8591400405020 /* Products */,
+				FC887DB4504DC16DAA0A8602 /* Pods */,
+				73490695E2978E5B3661444C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03F2BDA726A8591400405020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F2BDA626A8591400405020 /* ios_notepad.app */,
+				03F2BDBC26A8591500405020 /* ios_notepadTests.xctest */,
+				03F2BDC726A8591500405020 /* ios_notepadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03F2BDA826A8591400405020 /* ios_notepad */ = {
+			isa = PBXGroup;
+			children = (
+				14FBE3912A9C38A700700D6B /* Time */,
+				CBD437532A97B18600DEA4AF /* Activities */,
+				CBD437452A97B0EB00DEA4AF /* Exams */,
+				1452C2772A971C57004609A9 /* Timetable */,
+				1452C26D2A971B08004609A9 /* Homework */,
+				CB60067D2A8BD889005BBF93 /* Course */,
+				CB6006782A8BCF9E005BBF93 /* Home */,
+				03F2BDA926A8591400405020 /* AppDelegate.swift */,
+				14ECD395290AAF0D0063EDB7 /* UTabBarController.swift */,
+				147299CB291F93CA00C225C1 /* NavigationC.swift */,
+				144A05E0292275C600BB02FE /* BaseViewController.swift */,
+				03F2BDAF26A8591400405020 /* Main.storyboard */,
+				03F2BDB226A8591500405020 /* Assets.xcassets */,
+				03F2BDB426A8591500405020 /* LaunchScreen.storyboard */,
+				03F2BDB726A8591500405020 /* Info.plist */,
+				010CEC1826AA98F0000E2398 /* DataManager.swift */,
+				7F5B7E81290E5AC6005BAAC0 /* LoginVC.swift */,
+				7F5B7E82290E5AC6005BAAC0 /* LoginVC.xib */,
+				7F5B7E85290E5FC5005BAAC0 /* ResignVC.swift */,
+				7F5B7E86290E5FC5005BAAC0 /* ResignVC.xib */,
+				1451FA5F291E0929006685D8 /* ios_notepad-Bridging-Header.h */,
+				14FBE3A72A9CCB9900700D6B /* Model.swift */,
+			);
+			path = ios_notepad;
+			sourceTree = "<group>";
+		};
+		03F2BDBF26A8591500405020 /* ios_notepadTests */ = {
+			isa = PBXGroup;
+			children = (
+				03F2BDC026A8591500405020 /* ios_notepadTests.swift */,
+				03F2BDC226A8591500405020 /* Info.plist */,
+			);
+			path = ios_notepadTests;
+			sourceTree = "<group>";
+		};
+		03F2BDCA26A8591500405020 /* ios_notepadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03F2BDCB26A8591500405020 /* ios_notepadUITests.swift */,
+				03F2BDCD26A8591500405020 /* Info.plist */,
+			);
+			path = ios_notepadUITests;
+			sourceTree = "<group>";
+		};
+		1452C26D2A971B08004609A9 /* Homework */ = {
+			isa = PBXGroup;
+			children = (
+				14FBE39E2A9C3F3B00700D6B /* Data */,
+				1452C2722A971BBD004609A9 /* Cell */,
+				CB828F042A9655DC006BEF06 /* HomeworkViewController.swift */,
+				CB828F052A9655DC006BEF06 /* HomeworkViewController.xib */,
+				1452C26E2A971B22004609A9 /* HomeworkInfoVC.swift */,
+				1452C26F2A971B22004609A9 /* HomeworkInfoVC.xib */,
+			);
+			path = Homework;
+			sourceTree = "<group>";
+		};
+		1452C2722A971BBD004609A9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1452C2732A971BD0004609A9 /* HomeworkInfoCell.swift */,
+				1452C2742A971BD0004609A9 /* HomeworkInfoCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1452C2772A971C57004609A9 /* Timetable */ = {
+			isa = PBXGroup;
+			children = (
+				CB1EBA032AA30E8000A34A95 /* Model */,
+				CBD4373C2A97AD5E00DEA4AF /* Cell */,
+				1452C2782A971C68004609A9 /* TimetableVC.swift */,
+				1452C2792A971C68004609A9 /* TimetableVC.xib */,
+			);
+			path = Timetable;
+			sourceTree = "<group>";
+		};
+		14FBE3912A9C38A700700D6B /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				14FBE3922A9C38A700700D6B /* Date1+Extension.swift */,
+				14FBE3932A9C38A700700D6B /* UIView1+Extension.swift */,
+				14FBE3942A9C38A700700D6B /* YLDatePicker.swift */,
+				CBFB6D632A9E46720020914A /* String+Extension.swift */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		14FBE3982A9C3A7B00700D6B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				14FBE3992A9C3AD200700D6B /* AcivitesDataManage.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		14FBE39B2A9C3EE600700D6B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				14FBE39C2A9C3EF400700D6B /* ExamsDataManage.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		14FBE39E2A9C3F3B00700D6B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				14FBE3A02A9C3F5200700D6B /* HomeworkDataManage.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		14FBE3A22A9C3FAF00700D6B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				14FBE3A32A9C3FAF00700D6B /* CourseDataManage.swift */,
+				CB365B932A9F9524001C6DEF /* CourseDataTimeManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		73490695E2978E5B3661444C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A83850802C79EF3ED059EAD1 /* Pods_ios_notepad.framework */,
+				DBA0C8F4960770BB0FB4DBF3 /* Pods_ios_notepad_ios_notepadUITests.framework */,
+				917A0152CB3ACE25AB2CD090 /* Pods_ios_notepadTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB1EBA032AA30E8000A34A95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB1EBA042AA30E9B00A34A95 /* CourseTimetableModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB6006782A8BCF9E005BBF93 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CB6006792A8BCFC3005BBF93 /* BHomeViewController.swift */,
+				CB60067A2A8BCFC3005BBF93 /* BHomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CB60067D2A8BD889005BBF93 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				14FBE3A22A9C3FAF00700D6B /* Data */,
+				CB828EFF2A964FEF006BEF06 /* Cell */,
+				CB60067E2A8BD8A9005BBF93 /* CourseViewController.swift */,
+				CB60067F2A8BD8A9005BBF93 /* CourseViewController.xib */,
+				CB828EFB2A964E81006BEF06 /* CourseInfoViewController.swift */,
+				CB828EFC2A964E81006BEF06 /* CourseInfoViewController.xib */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		CB828EFF2A964FEF006BEF06 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CB828F002A965004006BEF06 /* CourseInfoCell.swift */,
+				CB828F012A965004006BEF06 /* CourseInfoCell.xib */,
+				CB64C0162AA22EA100D02165 /* CourseTimeCell.swift */,
+				CB64C0172AA22EA100D02165 /* CourseTimeCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CBD4373C2A97AD5E00DEA4AF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CBD4373D2A97AD7300DEA4AF /* CoursesCell.swift */,
+				CBD4373E2A97AD7300DEA4AF /* CoursesCell.xib */,
+				CBD437412A97AF6F00DEA4AF /* TimetableCell.swift */,
+				CBD437422A97AF6F00DEA4AF /* TimetableCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CBD437452A97B0EB00DEA4AF /* Exams */ = {
+			isa = PBXGroup;
+			children = (
+				14FBE39B2A9C3EE600700D6B /* Data */,
+				CBD437472A97B11E00DEA4AF /* Cell */,
+				CBD4374A2A97B11E00DEA4AF /* ExamsInfoVC.swift */,
+				CBD437462A97B11E00DEA4AF /* ExamsInfoVC.xib */,
+				CBD4374B2A97B11E00DEA4AF /* ExamsViewController.swift */,
+				CBD4374C2A97B11E00DEA4AF /* ExamsViewController.xib */,
+			);
+			path = Exams;
+			sourceTree = "<group>";
+		};
+		CBD437472A97B11E00DEA4AF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CBD437482A97B11E00DEA4AF /* ExamsInfoCell.swift */,
+				CBD437492A97B11E00DEA4AF /* ExamsInfoCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CBD437532A97B18600DEA4AF /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				14FBE3982A9C3A7B00700D6B /* Data */,
+				CBD437542A97B19B00DEA4AF /* Cell */,
+				CBD437572A97B19B00DEA4AF /* ActivitiesInfoVC.swift */,
+				CBD4375A2A97B19B00DEA4AF /* ActivitiesInfoVC.xib */,
+				CBD437582A97B19B00DEA4AF /* ActivitiesViewController.swift */,
+				CBD437592A97B19B00DEA4AF /* ActivitiesViewController.xib */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		CBD437542A97B19B00DEA4AF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CBD437552A97B19B00DEA4AF /* ActivitiesInfoCell.swift */,
+				CBD437562A97B19B00DEA4AF /* ActivitiesInfoCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FC887DB4504DC16DAA0A8602 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B12ADC5AB3A4AEE4FD47235E /* Pods-ios_notepad.debug.xcconfig */,
+				18817DEAA422830ADC4DF24A /* Pods-ios_notepad.release.xcconfig */,
+				93441445A2EEFE8B800AAB95 /* Pods-ios_notepad-ios_notepadUITests.debug.xcconfig */,
+				C8E48EA61A331B42608AF4B6 /* Pods-ios_notepad-ios_notepadUITests.release.xcconfig */,
+				253192B8FD4A9C306844A270 /* Pods-ios_notepadTests.debug.xcconfig */,
+				814EEBEDDB3468BCABCBE022 /* Pods-ios_notepadTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03F2BDA526A8591400405020 /* ios_notepad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F2BDD026A8591500405020 /* Build configuration list for PBXNativeTarget "ios_notepad" */;
+			buildPhases = (
+				BE58D46BD95415FB964DD7A5 /* [CP] Check Pods Manifest.lock */,
+				03F2BDA226A8591400405020 /* Sources */,
+				03F2BDA326A8591400405020 /* Frameworks */,
+				03F2BDA426A8591400405020 /* Resources */,
+				59E7E356B0E5D8E3BCFFB729 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ios_notepad;
+			productName = ios_notepad;
+			productReference = 03F2BDA626A8591400405020 /* ios_notepad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03F2BDBB26A8591500405020 /* ios_notepadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F2BDD326A8591500405020 /* Build configuration list for PBXNativeTarget "ios_notepadTests" */;
+			buildPhases = (
+				87193933C64592CC39FD56F3 /* [CP] Check Pods Manifest.lock */,
+				03F2BDB826A8591500405020 /* Sources */,
+				03F2BDB926A8591500405020 /* Frameworks */,
+				03F2BDBA26A8591500405020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F2BDBE26A8591500405020 /* PBXTargetDependency */,
+			);
+			name = ios_notepadTests;
+			productName = ios_notepadTests;
+			productReference = 03F2BDBC26A8591500405020 /* ios_notepadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03F2BDC626A8591500405020 /* ios_notepadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F2BDD626A8591500405020 /* Build configuration list for PBXNativeTarget "ios_notepadUITests" */;
+			buildPhases = (
+				9602D1779D7E76CB1D2EFD99 /* [CP] Check Pods Manifest.lock */,
+				03F2BDC326A8591500405020 /* Sources */,
+				03F2BDC426A8591500405020 /* Frameworks */,
+				03F2BDC526A8591500405020 /* Resources */,
+				CD566FD44A14FD04BECE374D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F2BDC926A8591500405020 /* PBXTargetDependency */,
+			);
+			name = ios_notepadUITests;
+			productName = ios_notepadUITests;
+			productReference = 03F2BDC726A8591500405020 /* ios_notepadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03F2BD9E26A8591400405020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					03F2BDA526A8591400405020 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1400;
+					};
+					03F2BDBB26A8591500405020 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 03F2BDA526A8591400405020;
+					};
+					03F2BDC626A8591500405020 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 03F2BDA526A8591400405020;
+					};
+				};
+			};
+			buildConfigurationList = 03F2BDA126A8591400405020 /* Build configuration list for PBXProject "ios_notepad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03F2BD9D26A8591400405020;
+			productRefGroup = 03F2BDA726A8591400405020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F2BDA526A8591400405020 /* ios_notepad */,
+				03F2BDBB26A8591500405020 /* ios_notepadTests */,
+				03F2BDC626A8591500405020 /* ios_notepadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03F2BDA426A8591400405020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1452C27B2A971C68004609A9 /* TimetableVC.xib in Resources */,
+				1452C2712A971B22004609A9 /* HomeworkInfoVC.xib in Resources */,
+				CB828EFE2A964E81006BEF06 /* CourseInfoViewController.xib in Resources */,
+				CBD437442A97AF6F00DEA4AF /* TimetableCell.xib in Resources */,
+				CBD4375F2A97B19B00DEA4AF /* ActivitiesViewController.xib in Resources */,
+				CBD4375C2A97B19B00DEA4AF /* ActivitiesInfoCell.xib in Resources */,
+				03F2BDB626A8591500405020 /* LaunchScreen.storyboard in Resources */,
+				CBD4374F2A97B11F00DEA4AF /* ExamsInfoCell.xib in Resources */,
+				CB6006812A8BD8A9005BBF93 /* CourseViewController.xib in Resources */,
+				03F2BDB326A8591500405020 /* Assets.xcassets in Resources */,
+				CB60067C2A8BCFC3005BBF93 /* BHomeViewController.xib in Resources */,
+				7F5B7E88290E5FC5005BAAC0 /* ResignVC.xib in Resources */,
+				CBD437522A97B11F00DEA4AF /* ExamsViewController.xib in Resources */,
+				CB828F032A965004006BEF06 /* CourseInfoCell.xib in Resources */,
+				CB64C0192AA22EA100D02165 /* CourseTimeCell.xib in Resources */,
+				CBD4374D2A97B11E00DEA4AF /* ExamsInfoVC.xib in Resources */,
+				1452C2762A971BD0004609A9 /* HomeworkInfoCell.xib in Resources */,
+				CB828F072A9655DC006BEF06 /* HomeworkViewController.xib in Resources */,
+				CBD437602A97B19B00DEA4AF /* ActivitiesInfoVC.xib in Resources */,
+				7F5B7E84290E5AC6005BAAC0 /* LoginVC.xib in Resources */,
+				CBD437402A97AD7300DEA4AF /* CoursesCell.xib in Resources */,
+				03F2BDB126A8591400405020 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F2BDBA26A8591500405020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F2BDC526A8591500405020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59E7E356B0E5D8E3BCFFB729 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_notepad/Pods-ios_notepad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_notepad/Pods-ios_notepad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios_notepad/Pods-ios_notepad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87193933C64592CC39FD56F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_notepadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9602D1779D7E76CB1D2EFD99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_notepad-ios_notepadUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE58D46BD95415FB964DD7A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_notepad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD566FD44A14FD04BECE374D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_notepad-ios_notepadUITests/Pods-ios_notepad-ios_notepadUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_notepad-ios_notepadUITests/Pods-ios_notepad-ios_notepadUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios_notepad-ios_notepadUITests/Pods-ios_notepad-ios_notepadUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F2BDA226A8591400405020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD4373F2A97AD7300DEA4AF /* CoursesCell.swift in Sources */,
+				CB6006802A8BD8A9005BBF93 /* CourseViewController.swift in Sources */,
+				CBD437512A97B11F00DEA4AF /* ExamsViewController.swift in Sources */,
+				147299CC291F93CA00C225C1 /* NavigationC.swift in Sources */,
+				CBD437432A97AF6F00DEA4AF /* TimetableCell.swift in Sources */,
+				14FBE3A82A9CCB9900700D6B /* Model.swift in Sources */,
+				14FBE39A2A9C3AD200700D6B /* AcivitesDataManage.swift in Sources */,
+				CBFB6D642A9E46720020914A /* String+Extension.swift in Sources */,
+				010CEC1926AA98F0000E2398 /* DataManager.swift in Sources */,
+				14FBE3962A9C38A700700D6B /* UIView1+Extension.swift in Sources */,
+				14FBE3952A9C38A700700D6B /* Date1+Extension.swift in Sources */,
+				CBD4374E2A97B11E00DEA4AF /* ExamsInfoCell.swift in Sources */,
+				1452C27A2A971C68004609A9 /* TimetableVC.swift in Sources */,
+				CB64C0182AA22EA100D02165 /* CourseTimeCell.swift in Sources */,
+				CBD4375B2A97B19B00DEA4AF /* ActivitiesInfoCell.swift in Sources */,
+				14FBE3A42A9C3FAF00700D6B /* CourseDataManage.swift in Sources */,
+				14FBE3972A9C38A700700D6B /* YLDatePicker.swift in Sources */,
+				CB828F022A965004006BEF06 /* CourseInfoCell.swift in Sources */,
+				CBD437502A97B11F00DEA4AF /* ExamsInfoVC.swift in Sources */,
+				7F5B7E87290E5FC5005BAAC0 /* ResignVC.swift in Sources */,
+				CB1EBA052AA30E9B00A34A95 /* CourseTimetableModel.swift in Sources */,
+				1452C2702A971B22004609A9 /* HomeworkInfoVC.swift in Sources */,
+				CBD4375E2A97B19B00DEA4AF /* ActivitiesViewController.swift in Sources */,
+				7F5B7E83290E5AC6005BAAC0 /* LoginVC.swift in Sources */,
+				03F2BDAA26A8591400405020 /* AppDelegate.swift in Sources */,
+				1452C2752A971BD0004609A9 /* HomeworkInfoCell.swift in Sources */,
+				144A05E1292275C600BB02FE /* BaseViewController.swift in Sources */,
+				CB60067B2A8BCFC3005BBF93 /* BHomeViewController.swift in Sources */,
+				14ECD396290AAF0D0063EDB7 /* UTabBarController.swift in Sources */,
+				CB365B942A9F9524001C6DEF /* CourseDataTimeManager.swift in Sources */,
+				14FBE3A12A9C3F5200700D6B /* HomeworkDataManage.swift in Sources */,
+				CB828F062A9655DC006BEF06 /* HomeworkViewController.swift in Sources */,
+				CB828EFD2A964E81006BEF06 /* CourseInfoViewController.swift in Sources */,
+				14FBE39D2A9C3EF400700D6B /* ExamsDataManage.swift in Sources */,
+				CBD4375D2A97B19B00DEA4AF /* ActivitiesInfoVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F2BDB826A8591500405020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F2BDC126A8591500405020 /* ios_notepadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F2BDC326A8591500405020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F2BDCC26A8591500405020 /* ios_notepadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03F2BDBE26A8591500405020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F2BDA526A8591400405020 /* ios_notepad */;
+			targetProxy = 03F2BDBD26A8591500405020 /* PBXContainerItemProxy */;
+		};
+		03F2BDC926A8591500405020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F2BDA526A8591400405020 /* ios_notepad */;
+			targetProxy = 03F2BDC826A8591500405020 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03F2BDAF26A8591400405020 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F2BDB026A8591400405020 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03F2BDB426A8591500405020 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F2BDB526A8591500405020 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03F2BDCE26A8591500405020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03F2BDCF26A8591500405020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03F2BDD126A8591500405020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12ADC5AB3A4AEE4FD47235E /* Pods-ios_notepad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6KL3W9ZQ23;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = QY86W2QKMX;
+				INFOPLIST_FILE = ios_notepad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xavi.notepad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = mypush;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = newest;
+				SWIFT_OBJC_BRIDGING_HEADER = "ios_notepad/ios_notepad-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03F2BDD226A8591500405020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18817DEAA422830ADC4DF24A /* Pods-ios_notepad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = QY86W2QKMX;
+				INFOPLIST_FILE = ios_notepad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xavi.notepad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = newest;
+				SWIFT_OBJC_BRIDGING_HEADER = "ios_notepad/ios_notepad-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03F2BDD426A8591500405020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253192B8FD4A9C306844A270 /* Pods-ios_notepadTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ios_notepadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinerjack.ios-notepadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios_notepad.app/ios_notepad";
+			};
+			name = Debug;
+		};
+		03F2BDD526A8591500405020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814EEBEDDB3468BCABCBE022 /* Pods-ios_notepadTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ios_notepadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinerjack.ios-notepadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios_notepad.app/ios_notepad";
+			};
+			name = Release;
+		};
+		03F2BDD726A8591500405020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93441445A2EEFE8B800AAB95 /* Pods-ios_notepad-ios_notepadUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ios_notepadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinerjack.ios-notepadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ios_notepad;
+			};
+			name = Debug;
+		};
+		03F2BDD826A8591500405020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E48EA61A331B42608AF4B6 /* Pods-ios_notepad-ios_notepadUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ios_notepadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinerjack.ios-notepadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ios_notepad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03F2BDA126A8591400405020 /* Build configuration list for PBXProject "ios_notepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F2BDCE26A8591500405020 /* Debug */,
+				03F2BDCF26A8591500405020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F2BDD026A8591500405020 /* Build configuration list for PBXNativeTarget "ios_notepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F2BDD126A8591500405020 /* Debug */,
+				03F2BDD226A8591500405020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F2BDD326A8591500405020 /* Build configuration list for PBXNativeTarget "ios_notepadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F2BDD426A8591500405020 /* Debug */,
+				03F2BDD526A8591500405020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F2BDD626A8591500405020 /* Build configuration list for PBXNativeTarget "ios_notepadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F2BDD726A8591500405020 /* Debug */,
+				03F2BDD826A8591500405020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03F2BD9E26A8591400405020 /* Project object */;
+}
